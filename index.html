@@ -5,7 +5,7 @@
     <title>Stork Nguyen</title>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="author" content="Nguyen Khang" >
+    <meta name="author" content="Nguyen Khang">
     <link rel="stylesheet" href="css/kube.min.css" />
     <link rel="stylesheet" href="css/font-awesome.min.css" />
     <link rel="stylesheet" href="css/custom.min.css" />
@@ -15,7 +15,7 @@
     <style>
         .intro h1:before {
             /* Edit this with your name or anything else */
-            content: 'Stork' !important;
+            content: 'Khang' !important;
         }
     </style>
 </head>
@@ -34,6 +34,7 @@
                         <li><a href="#education">Education</a></li>
                         <li><a href="#works">Works</a></li>
                         <li><a href="#achievements">Achievements</a></li>
+                        <li><a href="#certs">Certifications</a></li>
                         <li><a href="#skills">Skills</a></li>
                     </ul>
                 </nav>
@@ -44,7 +45,7 @@
     <!-- Introduction -->
     <div class="intro section" id="about">
         <div class="container">
-            <p>Hi, I’m Nguyen Khang</p>
+            <p>Hi, I'm Nguyen Khang</p>
             <div class="units-row units-split wrap">
                 <div class="unit-20">
                     <img src="img/ava.jpg" alt="Khang la toi hehe">
@@ -52,10 +53,9 @@
                 <div class="unit-80">
                     <h1>I'm<br><span id="typed"></span></h1>
                 </div>
-                <p>
-                    I'm an IT student in the process of learning about the "bug and code" world. This is my CV page,
-                    which will mainly contain my achievements during studies and research. If you're interested, feel
-                    free to contact me through the social media links below.
+                <p style="text-align: center; margin: 0 auto;">
+                    I'm an IT student specializing in Data Science & AI at VKU. I enjoy turning data into insights and
+                    building practical AI solutions. Explore my portfolio to see my projects and achievements.
                 </p>
             </div>
         </div>
@@ -84,10 +84,17 @@
         <div class="container">
             <h1>Work experiences </h1>
             <ul class="work-list">
+                <li>5/2025 - 8/2025</li>
+                <li><a href="https://www.facebook.com/profile.php?id=100089657236635" target="_blank"
+                        rel="noopener noreferrer">King Mongkut's University of Technology North Bangkok</a> </li>
+                <li>Student intern, Emotion recognition using voice and facial expression.</li>
+            </ul>
+            <ul class="work-list">
                 <li>6/2024 - 8/2024</li>
                 <li><a href="https://www.facebook.com/profile.php?id=100089657236635" target="_blank"
                         rel="noopener noreferrer">eSTI-Digital Science and Technology Institute</a> </li>
-                <li>Student internship, participating in data collection and processing for the "Plugin for Kids" project.</li>
+                <li>Student internship, participating in data collection and processing for the "Plugin for Kids"
+                    project.</li>
             </ul>
         </div>
     </div>
@@ -96,11 +103,50 @@
     <div class="award section second" id="achievements">
         <div class="container">
             <h1>Award &amp;<br>Achievements</h1>
+            <!-- <ul class="award-list list-flat">
+                <li>6/2024 - 8/2024</li>
+                <li><a href="https://www.facebook.com/profile.php?id=100089657236635" target="_blank"
+                        rel="noopener noreferrer">eSTI-Digital Science and Technology Institute</a> </li>
+                <li>Student internship, participating in data collection and processing for the "Plugin for Kids"
+                    project.
+                </li>
+            </ul> -->
             <ul class="award-list list-flat">
+                <li>6/2025</li>
+                <li><a href="https://www.facebook.com/vku.udn.vn" target="_blank"
+                        rel="noopener noreferrer">Vietnam-Korea University of Information and Communication
+                        Technology</a> </li>
+                <li>Second Prize, 2025 Student Scientific Research Conference, VKU.</li>
+                <li>Project <i>"Developing a Model and Application for Classifying Diseases on Coffee Leaves."</i> </li>
+                </li>
+            </ul>
+            <ul class="award-list list-flat">
+                <li>5/2025</li>
+                <li><a href="https://www.facebook.com/conference.cita" target="_blank" rel="noopener noreferrer">The
+                        International Conference on Information Technology and its Applications </a> </li>
+                <li>Paper accepted at CITA 2025 - Conference on Information Technology and Applications</li>
+                <li>Paper titled <i>"Self-supervised Colorization Driven Two-Stage Coffee Leaf Disease Detection"</i>
+                </li>
+                </li>
             </ul>
         </div>
     </div>
 
+
+    <div class="skills section second" id="certs">
+        <div class="container">
+            <h1>Certifications</h1>
+            <ul class="skill-list list-flat">
+                <li>TOEIC (Test of English for International Communication)</li>
+                <li>855/990 (Listening & Reading) - 2025</li>
+            </ul>
+            <ul class="skill-list list-flat">
+                <li>TOEIC (Test of English for International Communication)</li>
+                <li>855/990 (Listening & Reading) - 2025</li>
+            </ul>
+        </div>
+
+    </div>
     <!-- Technical Skills -->
     <div class="skills section second" id="skills">
         <div class="container">
@@ -114,8 +160,9 @@
                 <li>MySQL / MongoDB / Supabase</li>
             </ul>
             <ul class="skill-list list-flat">
-                <li>Languages</li>
+                <li>DS & AI Technology</li>
                 <li>Python: OpenCV (cv2), NumPy, pandas, Streamlit, Gradio, ...</li>
+                <li>Deep learning: pytorch, sklearn,...</li>
             </ul>
         </div>
     </div>
@@ -153,7 +200,7 @@
         function newTyped() { } $(function () {
             $("#typed").typed({
                 // Change to edit type effect
-                strings: ["bug creator 😐", "interested in AI", "Batman 😎"],
+                strings: ["interested in AI", "Chill guy"],
                 typeSpeed: 80, backDelay: 700, contentType: "html", loop: !0, resetCallback: function () { newTyped() }
             }), $(".reset").click(function () { $("#typed").typed("reset") })
         });
